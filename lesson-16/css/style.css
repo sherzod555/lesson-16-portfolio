@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Heebo', sans-serif;
+    color: #21243D;
+}
+
+.nav__bar {
+    margin-top: 27px;
+    height: 43px;
+}
+
+.nav__menu {
+    display: flex;
+    justify-content: end;
+    gap: 33px;
+}
+
+.nav__links {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: right;
+    color: #000000;
+}
+
+.nav__links:hover {
+    color: #FF6464;
+}
+
+.personal-info__container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 140px auto 0;
+}
+
+.per-info__text {
+    max-width: 500px;
+}
+
+.person-name {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+}
+
+.person-info__desc {
+    max-width: 497px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 40px;
+}
+
+.resume__btn {
+    margin-top: 38px;
+    width: 208px;
+    height: 47px;
+    background: #FF6464;
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.resume__btn:hover {
+    background: #af2121;
+}
+
+.per-info__image img {
+    width: 243px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: -5px 13px 1px #EDF7FA;
+}
+
+.recent-post__container {
+    width: 100%;
+    margin-top: 70px;
+    background: #EDF7FA;
+}
+
+.post_heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post_heading {
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 7px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rp {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+}
+
+.post_heading a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00A8CC;
+}
+
+.post_heading a:hover {
+    color: #95ecff;
+}
+
+.post__card {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    max-width: 900px;
+    padding-bottom: 32px;
+}
+
+.post__card-rows {
+    max-width: 418px;
+    height: 295px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+    padding: 24px;
+}
+
+.post__row-title {
+    max-width: 374px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    margin-bottom: 20px;
+}
+
+.post__row-data {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.post__row-data span {
+    margin: 0 26px;
+    font-size: 21px;
+}
+
+.post__row-desc {
+    max-width: 368px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.featured-works__container {
+    width: 100%;
+}
+
+.featured-works__info {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.fw__title {
+    height: 60px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    margin-top: 15px;
+}
+
+.fw__card {
+    display: flex;
+    padding: 31px 0 20px;
+    border-bottom: 1px solid #E0E0E0;
+    border-width: 100%;
+}
+
+.fw-card__img {
+    max-width: 246px;
+    height: auto;
+    border-radius: 6px;
+}
+
+.fw-card__info {
+    margin-left: 18px;
+}
+
+.fw-card__title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+}
+
+.fw-card__job {
+    display: flex;
+    margin: 22px 0;
+    gap: 26px;
+}
+
+.card-job__year {
+    font-weight: 900;
+    font-size: 18px;
+    color: #FFFFFF;
+    width: 62px;
+    height: 25px;
+    background: #142850;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.card-job__name {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+}
+
+.fw-card__desc {
+    max-width: 594px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+footer {
+    padding: 54px 0;
+    margin-top: 83px;
+}
+
+.social-media__icon {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.copyright {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 26px;
+}
